@@ -16,8 +16,8 @@ public class JDBC {
             Banco bancoRecuperado = BancoDAO.obtemBancoPorCnpj("00.000.000/0001-91");
 
             // Mostra as informações dos dois para serem comparadas
-            System.out.println(banco);
-            System.out.println(bancoRecuperado);
+            System.out.println("Banco do banco: " + banco.getCnpj());
+            System.out.println("Banco recuperado: " + bancoRecuperado.getCnpj());
 
             // Cria Agencia
             banco.criaAgencia("Agência Banco do Brasil - Centro", "Avenida Afonso Pena, 1.001 - Centro, Belo Horizonte - MG", "(31) 3216-8888");
