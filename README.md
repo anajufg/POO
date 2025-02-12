@@ -1,1 +1,1 @@
-# Algumas atividades realizadas na disciplina de Programação Orientada a Objetos
+# Algumas das atividades realizadas na disciplina de Programação Orientada a Objetos
